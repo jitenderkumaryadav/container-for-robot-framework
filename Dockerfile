@@ -1,6 +1,6 @@
 FROM centos:7
-ENV http_proxy http://10.158.100.6:8080/
-ENV https_proxy http://10.158.100.6:8080/
+ENV http_proxy http://192.168.1.1:8080/
+ENV https_proxy http://192.168.1.1:8080/
 RUN yum update
 RUN yum install epel-release -y
 RUN yum install python -y
